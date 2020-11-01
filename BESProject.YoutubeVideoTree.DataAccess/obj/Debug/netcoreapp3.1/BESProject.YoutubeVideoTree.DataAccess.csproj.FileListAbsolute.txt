@@ -1,0 +1,4 @@
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.DataAccess\bin\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Entities.dll
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.DataAccess\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.DataAccess.csprojAssemblyReference.cache
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.DataAccess\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.DataAccess.AssemblyInfoInputs.cache
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.DataAccess\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.DataAccess.AssemblyInfo.cs
