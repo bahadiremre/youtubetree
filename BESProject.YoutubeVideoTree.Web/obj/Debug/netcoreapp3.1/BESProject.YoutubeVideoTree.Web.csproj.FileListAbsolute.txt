@@ -12,8 +12,6 @@ C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Web\bin
 C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Web\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Web.csprojAssemblyReference.cache
 C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Web\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Web.AssemblyInfoInputs.cache
 C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Web\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Web.AssemblyInfo.cs
-C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Web\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Web.csproj.CoreCompileInputs.cache
-C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Web\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Web\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Web.RazorAssemblyInfo.cache
 C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Web\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Web.RazorAssemblyInfo.cs
 C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Web\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Web.TagHelpers.input.cache
@@ -154,3 +152,7 @@ C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Web\bin
 C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Web\bin\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.DataAccess.pdb
 C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Web\bin\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Entities.pdb
 C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Web\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Web.csproj.CoreCompileInputs.cache
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Web\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\SignUp.cshtml.g.cs

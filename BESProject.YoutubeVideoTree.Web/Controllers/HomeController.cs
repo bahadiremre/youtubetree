@@ -25,6 +25,23 @@ namespace BESProject.YoutubeVideoTree.Web.Controllers
 
         public IActionResult Login()
         {
+            return View(new UserLogInViewModel());
+        }
+
+        [HttpPost]
+        public IActionResult Login(UserLogInViewModel model)
+        {
+            return View();
+        }
+
+        public IActionResult SignUp()
+        {
+            return View(new UserSignUpViewModel());
+        }
+
+        [HttpPost]
+        public IActionResult SignUp(UserSignUpViewModel model)
+        {
             return View();
         }
 

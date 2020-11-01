@@ -126,7 +126,7 @@ section.masthead {
 
 @media (min-width: 992px) {
     section.masthead {
-        padding-top: calc(10rem + 55px);
+        /*padding-top: calc(10rem + 55px);*/
         padding-bottom: 10rem;
     }
 

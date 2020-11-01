@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BESProject.YoutubeVideoTree.Web.Models
 {
-    public class UserSignInViewModel
+    public class UserLogInViewModel
     {
         [Display(Name = "Kullanıcı Adı")]
         [Required(ErrorMessage = "Kullanıcı adı boş geçilemez")]
