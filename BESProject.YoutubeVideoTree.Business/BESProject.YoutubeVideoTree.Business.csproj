@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BESProject.YoutubeVideoTree.DataAccess\BESProject.YoutubeVideoTree.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>

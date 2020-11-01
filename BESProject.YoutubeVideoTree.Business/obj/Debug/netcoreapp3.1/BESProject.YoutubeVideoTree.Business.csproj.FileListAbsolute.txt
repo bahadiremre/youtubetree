@@ -1,0 +1,14 @@
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Business\bin\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Business.deps.json
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Business\bin\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Business.dll
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Business\bin\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Business.pdb
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Business\bin\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.DataAccess.dll
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Business\bin\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Entities.dll
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Business\bin\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.DataAccess.pdb
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Business\bin\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Entities.pdb
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Business\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Business.csprojAssemblyReference.cache
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Business\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Business.AssemblyInfoInputs.cache
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Business\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Business.AssemblyInfo.cs
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Business\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Business.csproj.CoreCompileInputs.cache
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Business\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Business.csproj.CopyComplete
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Business\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Business.dll
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Business\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Business.pdb

@@ -4,14 +4,148 @@
     "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.Web\\BESProject.YoutubeVideoTree.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.Web\\BESProject.YoutubeVideoTree.Web.csproj": {
+    "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.Business\\BESProject.YoutubeVideoTree.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.Web\\BESProject.YoutubeVideoTree.Web.csproj",
-        "projectName": "BESProject.YoutubeVideoTree.Web",
-        "projectPath": "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.Web\\BESProject.YoutubeVideoTree.Web.csproj",
+        "projectUniqueName": "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.Business\\BESProject.YoutubeVideoTree.Business.csproj",
+        "projectName": "BESProject.YoutubeVideoTree.Business",
+        "projectPath": "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.Business\\BESProject.YoutubeVideoTree.Business.csproj",
         "packagesPath": "C:\\Users\\bahad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.Web\\obj\\",
+        "outputPath": "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bahad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.DataAccess\\BESProject.YoutubeVideoTree.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.DataAccess\\BESProject.YoutubeVideoTree.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.DataAccess\\BESProject.YoutubeVideoTree.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.DataAccess\\BESProject.YoutubeVideoTree.DataAccess.csproj",
+        "projectName": "BESProject.YoutubeVideoTree.DataAccess",
+        "projectPath": "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.DataAccess\\BESProject.YoutubeVideoTree.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\bahad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bahad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.Entities\\BESProject.YoutubeVideoTree.Entities.csproj": {
+                "projectPath": "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.Entities\\BESProject.YoutubeVideoTree.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.Entities\\BESProject.YoutubeVideoTree.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.Entities\\BESProject.YoutubeVideoTree.Entities.csproj",
+        "projectName": "BESProject.YoutubeVideoTree.Entities",
+        "projectPath": "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.Entities\\BESProject.YoutubeVideoTree.Entities.csproj",
+        "packagesPath": "C:\\Users\\bahad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bahad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +171,68 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.Web\\BESProject.YoutubeVideoTree.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.Web\\BESProject.YoutubeVideoTree.Web.csproj",
+        "projectName": "BESProject.YoutubeVideoTree.Web",
+        "projectPath": "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.Web\\BESProject.YoutubeVideoTree.Web.csproj",
+        "packagesPath": "C:\\Users\\bahad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bahad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.Business\\BESProject.YoutubeVideoTree.Business.csproj": {
+                "projectPath": "C:\\Users\\bahad\\source\\repos\\YoutubeVideoTree\\BESProject.YoutubeVideoTree.Business\\BESProject.YoutubeVideoTree.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

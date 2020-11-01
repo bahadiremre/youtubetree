@@ -2,3 +2,14 @@ C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.DataAcc
 C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.DataAccess\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.DataAccess.csprojAssemblyReference.cache
 C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.DataAccess\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.DataAccess.AssemblyInfoInputs.cache
 C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.DataAccess\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.DataAccess.AssemblyInfo.cs
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.DataAccess\bin\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.DataAccess.deps.json
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.DataAccess\bin\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.DataAccess.runtimeconfig.json
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.DataAccess\bin\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.DataAccess.runtimeconfig.dev.json
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.DataAccess\bin\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.DataAccess.dll
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.DataAccess\bin\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.DataAccess.pdb
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.DataAccess\bin\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Entities.pdb
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.DataAccess\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.DataAccess\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.DataAccess.csproj.CopyComplete
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.DataAccess\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.DataAccess.dll
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.DataAccess\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.DataAccess.pdb
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.DataAccess\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.DataAccess.genruntimeconfig.cache

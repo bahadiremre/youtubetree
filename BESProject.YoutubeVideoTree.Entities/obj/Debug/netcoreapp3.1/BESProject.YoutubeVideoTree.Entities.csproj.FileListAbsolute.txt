@@ -1,0 +1,9 @@
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Entities\bin\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Entities.deps.json
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Entities\bin\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Entities.dll
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Entities\bin\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Entities.pdb
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Entities\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Entities.csprojAssemblyReference.cache
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Entities\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Entities.AssemblyInfoInputs.cache
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Entities\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Entities.AssemblyInfo.cs
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Entities\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Entities.csproj.CoreCompileInputs.cache
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Entities\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Entities.dll
+C:\Users\bahad\source\repos\YoutubeVideoTree\BESProject.YoutubeVideoTree.Entities\obj\Debug\netcoreapp3.1\BESProject.YoutubeVideoTree.Entities.pdb
