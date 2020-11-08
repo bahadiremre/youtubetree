@@ -3,12 +3,13 @@ Create your personal YouTube lists in tree views
 
 
 -----------ToDo-------------
-1)Üyelik kaydı ve üye girişi
-2)Üye şifrelerine hash
-3)Video tree'yi entegre et
-3)MongoDB bağlantısı
-4)Youtube Ağacı için yetkilendirme(private/public)
-5)Error handling
-6)İng dil seçeneği
-7)SEO
-8)Google ile login
+gitignore dosyası oluştur
+Üyelik kaydı ve üye girişi
+Üye şifrelerine hash
+Video tree'yi entegre et
+MongoDB bağlantısı
+Youtube Ağacı için yetkilendirme(private/public)
+Error handling
+İng dil seçeneği
+SEO
+Google ile login
