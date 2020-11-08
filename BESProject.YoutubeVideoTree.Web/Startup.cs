@@ -2,8 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BESProject.YoutubeVideoTree.Business.Concrete;
+using BESProject.YoutubeVideoTree.Business.Interfaces;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -23,6 +27,17 @@ namespace BESProject.YoutubeVideoTree.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(opt => {
+                opt.LoginPath = "/Home/Login";
+                opt.LogoutPath = "/Panel/Logout";
+                opt.Cookie.HttpOnly = true;
+                opt.Cookie.Name = "YTUserCookie";
+                opt.Cookie.SameSite = SameSiteMode.Strict;
+                opt.ExpireTimeSpan = TimeSpan.FromDays(20);
+            });
+
+            services.AddScoped<IUserService, UserManager>();
+
             services.AddControllersWithViews();
         }
 
@@ -40,10 +55,11 @@ namespace BESProject.YoutubeVideoTree.Web
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
+            app.UseStaticFiles();            
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

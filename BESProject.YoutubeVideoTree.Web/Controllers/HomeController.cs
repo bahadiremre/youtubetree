@@ -6,16 +6,22 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using BESProject.YoutubeVideoTree.Web.Models;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using BESProject.YoutubeVideoTree.Business.Interfaces;
 
 namespace BESProject.YoutubeVideoTree.Web.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IUserService userService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger,IUserService userService)
         {
             _logger = logger;
+            this.userService = userService;
         }
 
         public IActionResult Index()
@@ -29,9 +35,24 @@ namespace BESProject.YoutubeVideoTree.Web.Controllers
         }
 
         [HttpPost]
-        public IActionResult Login(UserLogInViewModel model)
+        public async Task<IActionResult> Login(UserLogInViewModel model)
         {
+            if (ModelState.IsValid && CheckUserLogin(model))
+            {
+                List<Claim> claims = new List<Claim>();
+                claims.Add(new Claim(ClaimTypes.NameIdentifier, model.UserName));
+                ClaimsIdentity identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                ClaimsPrincipal principal = new ClaimsPrincipal(identity);
+                await HttpContext.SignInAsync(principal);
+                return RedirectToAction("Index", "Panel");
+            }
             return View();
+        }
+
+        private bool CheckUserLogin(UserLogInViewModel model)
+        {
+            //kullanici bilgilerini dbden kontrol et
+            return true;
         }
 
         public IActionResult SignUp()

@@ -1,10 +1,12 @@
-﻿using System;
+﻿using BESProject.YoutubeVideoTree.Business.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace BESProject.YoutubeVideoTree.Business.Concrete
 {
-    public class UserManager
+    public class UserManager : IUserService
     {
+
     }
 }

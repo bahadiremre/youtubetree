@@ -4,7 +4,8 @@ using System.Text;
 
 namespace BESProject.YoutubeVideoTree.Business.Interfaces
 {
-    interface IUserService
+    public interface IUserService
     {
+
     }
 }
