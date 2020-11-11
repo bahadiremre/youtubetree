@@ -10,6 +10,7 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using BESProject.YoutubeVideoTree.Business.Interfaces;
+using BESProject.YoutubeVideoTree.Entities.Concrete;
 
 namespace BESProject.YoutubeVideoTree.Web.Controllers
 {
@@ -18,7 +19,7 @@ namespace BESProject.YoutubeVideoTree.Web.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly IUserService userService;
 
-        public HomeController(ILogger<HomeController> logger,IUserService userService)
+        public HomeController(ILogger<HomeController> logger, IUserService userService)
         {
             _logger = logger;
             this.userService = userService;
@@ -51,8 +52,7 @@ namespace BESProject.YoutubeVideoTree.Web.Controllers
 
         private bool CheckUserLogin(UserLogInViewModel model)
         {
-            //kullanici bilgilerini dbden kontrol et
-            return true;
+            return userService.CheckUserLogin(model.UserName, model.Password);
         }
 
         public IActionResult SignUp()
@@ -63,6 +63,18 @@ namespace BESProject.YoutubeVideoTree.Web.Controllers
         [HttpPost]
         public IActionResult SignUp(UserSignUpViewModel model)
         {
+            if (ModelState.IsValid)
+            {
+                User user = new User { 
+                    Email=model.Email,
+                    Name=model.Name,
+                    Password=model.Password,
+                    Surname=model.Surname,
+                    UserName=model.UserName
+                };
+
+                userService.SignUp(user);
+            }
             return View();
         }
 

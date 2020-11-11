@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using BESProject.YoutubeVideoTree.Business.Concrete;
 using BESProject.YoutubeVideoTree.Business.Interfaces;
+using BESProject.YoutubeVideoTree.DataAccess.Concrete.EntityFrameworkCore.Repositories;
+using BESProject.YoutubeVideoTree.DataAccess.Interfaces;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -37,6 +39,7 @@ namespace BESProject.YoutubeVideoTree.Web
             });
 
             services.AddScoped<IUserService, UserManager>();
+            services.AddScoped<IUserDal, EfUserRepository>();
 
             services.AddControllersWithViews();
         }

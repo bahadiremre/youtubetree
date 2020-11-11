@@ -11,7 +11,7 @@ namespace BESProject.YoutubeVideoTree.DataAccess.Concrete.Contexts
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=EMRE-BILGISAYAR; database=YoutubeVideoTree; integrated security=true;");
+            optionsBuilder.UseSqlServer("server=LAPTOP-N4PGV7OS; database=YoutubeVideoTree; integrated security=true;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -25,8 +25,15 @@ namespace BESProject.YoutubeVideoTree.Web.Models
         [Required(ErrorMessage = "Email boş geçilemez")]
         public string Email { get; set; }
 
+        [DataType(DataType.Password)]
         [Display(Name = "Şifre")]
         [Required(ErrorMessage = "Şifre boş geçilemez")]
         public string Password { get; set; }
+
+        [DataType(DataType.Password)]
+        [Display(Name = "Şifre (Tekrar)")]
+        [Compare("Password", ErrorMessage ="Şifreleriniz uyuşmamaktadır.")]
+        [Required(ErrorMessage = "Şifre boş geçilemez")]
+        public string ConfirmPassword { get; set; }
     }
 }
