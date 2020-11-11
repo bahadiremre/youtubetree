@@ -38,14 +38,23 @@ namespace BESProject.YoutubeVideoTree.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(UserLogInViewModel model)
         {
-            if (ModelState.IsValid && CheckUserLogin(model))
+            if (ModelState.IsValid)
             {
-                List<Claim> claims = new List<Claim>();
-                claims.Add(new Claim(ClaimTypes.NameIdentifier, model.UserName));
-                ClaimsIdentity identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-                ClaimsPrincipal principal = new ClaimsPrincipal(identity);
-                await HttpContext.SignInAsync(principal);
-                return RedirectToAction("Index", "Panel");
+                if (CheckUserLogin(model))
+                {
+                    List<Claim> claims = new List<Claim>
+                    {
+                        new Claim(ClaimTypes.NameIdentifier, model.UserName)
+                    };
+                    ClaimsIdentity identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                    ClaimsPrincipal principal = new ClaimsPrincipal(identity);
+                    await HttpContext.SignInAsync(principal);
+                    return RedirectToAction("Index", "Panel");
+                }
+                else
+                {
+                    ModelState.AddModelError("", "Kullanıcı adı veya şifre hatalı");
+                }                
             }
             return View();
         }

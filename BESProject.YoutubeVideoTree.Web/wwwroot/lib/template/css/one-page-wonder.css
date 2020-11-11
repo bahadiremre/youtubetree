@@ -139,6 +139,10 @@ section.masthead {
         }
 }
 
+.alert ul {
+    margin-bottom: 0;
+}
+
 .bg-primary {
     background-color: #ee0979 !important;
 }

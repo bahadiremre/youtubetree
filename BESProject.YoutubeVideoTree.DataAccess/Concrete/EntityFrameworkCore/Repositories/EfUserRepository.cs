@@ -19,7 +19,7 @@ namespace BESProject.YoutubeVideoTree.DataAccess.Concrete.EntityFrameworkCore.Re
 
             //return user != null;
 
-            return user != null ? true : throw new Exception("Kullanıcı adı veya parola hatalı");
+            return user != null;
         }
 
         public void SignUp(User user)
